@@ -1,0 +1,17 @@
+.content{
+  width: 100%;
+  min-height: calc(100vh - 134px);
+}
+.header{
+  padding: 0 10px;
+}
+.list{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+.card{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
